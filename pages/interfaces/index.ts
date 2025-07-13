@@ -8,6 +8,6 @@ export interface CardProps {
 export interface ButtonProps {
   onClick: () => void;
   children: React.ReactNode;
-  variant?: "primary" | "secondary" | "danger";
+  variant?: "primary" | "secondary" | "default";
   className?: string;
 }

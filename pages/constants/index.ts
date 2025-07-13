@@ -10,4 +10,4 @@ export const LISTING_TYPES = [
 ];
 
 
-export const DEFAULT_CARD_DESCRIPTION = "A beautiful property available for rent/sale.";
+export const DEFAULT_CARD_DESCRIPTION = "A beautiful property available for rent.";
