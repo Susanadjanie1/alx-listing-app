@@ -1,13 +1,9 @@
 export interface CardProps {
   title: string;
-  description: string;
-  imageUrl?: string;
-  price?: number;
+  image: string;
 }
 
 export interface ButtonProps {
+  label: string;
   onClick: () => void;
-  children: React.ReactNode;
-  variant?: "primary" | "secondary" | "default";
-  className?: string;
 }
